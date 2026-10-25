@@ -1,0 +1,154 @@
+[
+  {
+    "problem_id": "TRAIN_01",
+    "source": "codeforces_style",
+    "sentences": [
+      {
+        "text": "Monocarp is playing a video game where he collects magical coins.",
+        "role": "STORY"
+      },
+      {
+        "text": "You are given an array $a$ consisting of $n$ integers.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Find the maximum sum of a contiguous subarray of length $k$.",
+        "role": "TASK"
+      },
+      {
+        "text": "It is guaranteed that $1 <= k <= n <= 10^5$ and $-10^9 <= a_i <= 10^9$.",
+        "role": "CONSTRAINT"
+      },
+      {
+        "text": "For example, if $a = [1, 4, 2, 10]$ and $k = 2$, the answer is $12$.",
+        "role": "EXAMPLE"
+      }
+    ]
+  },
+  {
+    "problem_id": "TRAIN_02",
+    "source": "codechef_style",
+    "sentences": [
+      {
+        "text": "In the year $3000$, Chef bought $5$ robots to clean his restaurant.",
+        "role": "STORY"
+      },
+      {
+        "text": "Chef always wanted to find the fastest way to clean all tables.",
+        "role": "STORY"
+      },
+      {
+        "text": "The restaurant is represented by a grid of $n$ rows and $m$ columns.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Your goal is to calculate the minimum time required to visit all dirty cells.",
+        "role": "TASK"
+      },
+      {
+        "text": "The sum of $n \\cdot m$ over all test cases does not exceed $200000$.",
+        "role": "CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "problem_id": "TRAIN_03",
+    "source": "codeforces_style",
+    "sentences": [
+      {
+        "text": "Polycarp loves strings and decided to invent a new puzzle.",
+        "role": "STORY"
+      },
+      {
+        "text": "Given a string $s$ of length $n$ containing lowercase English letters.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Return the length of the longest palindrome that can be formed.",
+        "role": "TASK"
+      },
+      {
+        "text": "Here $1 <= n <= 2 \\cdot 10^5$.",
+        "role": "CONSTRAINT"
+      },
+      {
+        "text": "In the first test case, the longest palindrome has length $7$.",
+        "role": "EXAMPLE"
+      }
+    ]
+  },
+  {
+    "problem_id": "TRAIN_04",
+    "source": "cses_style",
+    "sentences": [
+      {
+        "text": "There are $n$ islands connected by $m$ bridges in a magical archipelago.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Each bridge has a durability weight $w_i$.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Determine whether it is possible to travel from island $1$ to island $n$.",
+        "role": "TASK"
+      },
+      {
+        "text": "It is guaranteed that $2 <= n <= 10^5$ and $1 <= w_i <= 10^9$.",
+        "role": "CONSTRAINT"
+      }
+    ]
+  },
+  {
+    "problem_id": "TRAIN_05",
+    "source": "codeforces_style",
+    "sentences": [
+      {
+        "text": "Alice and Bob are playing a game with $2$ piles of stones.",
+        "role": "STORY"
+      },
+      {
+        "text": "Initially, you are given $n$ piles where the $i$-th pile has $c_i$ stones.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Count the number of winning first moves for Alice.",
+        "role": "TASK"
+      },
+      {
+        "text": "The value of $n$ does not exceed $50000$.",
+        "role": "CONSTRAINT"
+      },
+      {
+        "text": "For example, when $c = [3, 4, 5]$, Alice has $1$ winning move.",
+        "role": "EXAMPLE"
+      }
+    ]
+  },
+  {
+    "problem_id": "TRAIN_06",
+    "source": "codeforces_style",
+    "sentences": [
+      {
+        "text": "During his vacation, Vasya visited $10$ ancient castles.",
+        "role": "STORY"
+      },
+      {
+        "text": "He wanted to find the oldest artifact in the museum.",
+        "role": "STORY"
+      },
+      {
+        "text": "An array $p$ of $n$ integers denotes the age of each artifact.",
+        "role": "INPUT_SPEC"
+      },
+      {
+        "text": "Your goal is to find the minimum cost to buy at least $k$ artifacts.",
+        "role": "TASK"
+      },
+      {
+        "text": "Constraints: $1 <= k <= n <= 200000$ and $1 <= p_i <= 10^6$.",
+        "role": "CONSTRAINT"
+      }
+    ]
+  }
+]
